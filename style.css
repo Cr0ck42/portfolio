@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url("assets/Satoshi font/Satoshi-Regular.otf");
+}
+
+@font-face {
+    font-family: "Geist";
+    src: url("assets/Geist[wght].ttf");
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+a:link{
+    color:black
+}
+
+a:visited{
+    color:black
+}
+
+
+#abajo{
+    position: fixed;
+    font-family: "Geist";
+    left: 0;
+    bottom: 0;
+    font-size: large;
+    margin: 30px;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sticky{
+position: fixed;
+font-family: "Geist";
+font-weight: 400;
+font-size: large;
+margin: 30px;
+line-height: 23px;
+
+}
+
+#sticky2{
+    position: sticky;
+    top: 500px;
+    margin: 30px;
+}
+
+#pic {
+
+    height: 500px;
+    margin-right: 30px;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+
+}
+
+#pic2 {
+
+    height: 400px;
+    margin-right: 30px;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+
+}
+
+#pic0 {
+
+    height: 800px;
+    margin-right: 30px;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+
+}
+
+
+
+th{
+    font-weight: normal;
+}
+
+.espacio{
+    width: 1px;
+    height: 400px;
+    background-color: white;
+}
+
+.stickydesc {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+
+    font-family: "Geist";
+    font-weight: 400;
+    font-size: large;
+    max-width: 800px;
+}
+
+.stickydesc.fading {
+    opacity: 0;
+    transform: translateY(10px);
+    margin-left: auto;
+}
+
+
+
+.tablai{
+    float: right;
+  }
